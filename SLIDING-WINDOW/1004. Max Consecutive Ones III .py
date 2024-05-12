@@ -15,5 +15,3 @@ class Solution:
                 maxValue=max(maxValue,high-low+1)
             high+=1
         return maxValue
-s=Solution()
-print(s.longestOnes([0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1],3))
