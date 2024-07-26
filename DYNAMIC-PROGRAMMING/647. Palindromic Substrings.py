@@ -9,6 +9,6 @@ class Solution:
             return res
         res=0
         for i in range(len(s)):
-            res+=palindrome(i.i,s)
+            res+=palindrome(i,i,s)
             res+=palindrome(i,i+1,s)
         return res
